@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>first python web</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"></link>
+</head>
+<body>
+
+<table width="100%">
+    <tr>
+        <td colspan="2" height="100px" bgcolor="#DF826C" align="center" style="color:white"><h1>Koneru Lakshmaiah Education Foundation</h1></td>
+    </tr>
+    <tr>
+        <td class="menu" rowspan="2" height="500px" width="20%" bgcolor="#5FBDFF">
+            <a href="">Home</a><br>
+            <a href="">About</a><br>
+            <a href="">departments</a><br>
+            <a href="">Admissions</a><br>
+            <a href="">Login</a><br>
+            <a href="">Registration</a>
+        </td>
+
+
+        <td height="40px" bgcolor="#F9F54B" class="hmenu">
+            <a href="{% url 'travel' %}">Home</a>
+            <a href="">About</a>
+            <a href="{% url 'travel' %}">departments</a>
+            <a href="">Admissions</a>
+            <a href="">Login</a>
+            <a href="">Registration</a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <h1>body</h1>
+           <img src=" {% static  'images/img.png' %} ">
+            <img src="{% static 'images/im.png' %}">
+        </td></tr>
+    <tr>
+        <td height="25px" align="center" style="color:white" bgcolor="#DF826C" colspan="2">Copyright @ karthik</td>
+    </tr>
+</table>
+</body>
+</html>

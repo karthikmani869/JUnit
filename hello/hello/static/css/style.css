@@ -1,0 +1,31 @@
+        .hmenu a {
+      background-color:"yellow";
+      display: block;
+    color: blue;
+    padding: 12px;
+    font-size : 20px;
+    float:left;
+  }
+  .hmenu a:hover {
+    background-color: #565656;
+  }
+  .hmenu a.active {
+    background-color: #04AA6D;
+    color: white;
+    }
+
+    .menu a {
+      background-color: #dddddd;
+      display: block;
+    color: blue;
+    padding: 12px;
+    font-size : 20px;
+  }
+
+  .menu a:hover {
+    background-color: #565656;
+  }
+  .menu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
